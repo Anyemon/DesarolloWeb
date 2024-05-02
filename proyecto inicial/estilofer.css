@@ -1,0 +1,275 @@
+body {
+    
+    font-family: 'League Spartan', sans-serif;
+    background-color: #ece2c6;
+}
+
+.title h1  { 
+    text-align: center;
+}
+
+.contenedor h2 {
+    text-align: center;
+    color: black;
+}
+
+
+
+nav {
+    border: 1px solid black;
+    text-align: center; 
+    margin-bottom: 15px;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+
+   
+}
+
+
+.contenedor-nav a {
+    text-decoration: none;
+    color:white;
+    font: bold 14px verdana;
+    padding: 15px;
+}
+
+
+
+header {
+    border: 1px solid black;
+    padding: 15px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+    
+}
+
+.img1 {
+    width: 800px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+.img5 {
+    width: 700px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.img6 {
+    width: 700px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+
+.img4 {
+    width: 700px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+
+
+.img2   {
+    width: 700px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.img3 {
+    width: 700px; 
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+
+.contenedor-sobre-mi h3 {
+    text-align: center;
+}
+
+
+.contenedor-sobre-mi p {
+    text-align: center;
+
+}
+
+.contenedor-familia p {
+    text-align: center;
+}
+
+.contenedor-intereses h3 {
+    text-align: center;
+}
+
+.contenedor-intereses {
+    width: 800px; 
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    padding: 15px;
+    margin-top: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+
+.contenedor-sobre-mi {
+    width: 800px; 
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    padding: 15px;
+    margin-top: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedor-familia h3 {
+    text-align: center;
+}
+
+.contenedor-familia {
+    width: 800px; 
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    padding: 15px;
+    margin-top: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+main {
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    
+    
+}
+
+aside {
+    float: right;
+    margin-right: 200px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+    
+
+    
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    
+}
+
+
+/*redes sociales */
+
+.contenedor-aside{
+    
+	max-width:900px;
+	padding:32px 32px;
+	margin: auto;
+    border: 2px solid black;    
+}
+
+		
+.iconos-sociales {
+    margin: 20px;
+}
+     
+
+.icono1  {
+    width: 50px;
+    border: 2px solid black;  
+    border-radius: 10px;  
+}
+    
+
+
+.icono2  {
+    width: 50px;
+    border: 2px solid black;  
+    border-radius: 10px;  
+}
+
+.icono3 {
+    width: 50px;
+    border: 2px solid black;  
+    border-radius: 10px;  
+}
+
+.icono4 {
+    width: 50px;
+    border: 2px solid black;  
+    border-radius: 10px;  
+}
+
+.contenedor-aside h3 {
+    text-align: center;
+}
+
+
+footer h4 {
+    margin-bottom: auto;
+    color: #fff;
+}
+
+
+
+ 
+.contenedor-pagprinc a {
+  text-decoration: none;
+  margin: 25px;
+  font-size: 15px;
+  color: #fff;
+  background: #5cb8ff;
+  padding: 14px 24px;
+  display: inline-block;
+  
+}
+
+footer a {
+  text-decoration: none;
+  margin: 25px;
+  font-size: 15px;
+  color: #fff;
+  background: #5cb8ff;
+  padding: 14px 24px;
+  display: inline-block;
+  text-align: left;
+}
+
+.contenedor-info p {
+    max-width:200px;
+	padding:32px 32px;
+	margin:auto;
+    
+}

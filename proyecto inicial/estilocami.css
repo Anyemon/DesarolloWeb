@@ -1,0 +1,62 @@
+header {
+    border: 1px solid black;
+    padding: 15px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #d6eadf;
+     
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.columna {
+    width: 200px;
+    float: left;
+    background: #9bf1c2;
+    margin: 50px 0;
+}
+.cita {
+    margin-right: 200px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+}
+.chiky {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+/*redes sociales */
+
+.contenedor-aside{
+    
+	max-width:900px;
+	padding:32px 32px;
+	margin: auto;
+    border: 2px solid black;    
+}
+	
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    
+}
+
+
+    

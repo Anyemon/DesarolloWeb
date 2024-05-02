@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4bfc1;
+    margin: 10; 
+    padding: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #648a8a;
+}
+.flex-image {
+            display: flex;
+            width: 100%; /* Ancho completo */
+            height: 300px; /* Altura fija para las imágenes */
+}
+.imagen {
+            flex: 1; /* Ocupar el mismo espacio horizontalmente */
+            object-fit: contain; /* Escalar la imagen para llenar el contenedor */
+            height: 100%; /* Ocupar toda la altura del contenedor */
+
+}
+.texto-ini { 
+    flex: 1; /* Ocupar el espacio restante */
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: "Verdana";
+    color: white;
+}
+.span {
+    color:black;
+    text-align:justify;
+    font-size: 50px ;
+}
+.parrafoini {
+    color:black;
+    text-align:left;
+    font-size: 45px
+
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #648a8a;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+section {
+    background-color: #c4bfc1;
+    color: black;
+    
+    
+}
+
+article {
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+    
+    
+}
+.izq {
+    order: 1;
+    width: 50%;
+    height: 300px;
+    float: left;
+    
+    
+    
+}
+
+.der {
+    order: 2;
+    width: 50%;
+    height: 300px;
+    float: right;
+    
+    
+}
+/* Estilos de los artículos */
+article h2 {
+    margin-bottom: 20px;
+}
+h2 {
+    color:#005468;
+}
+.comidas {
+    display: flex;
+    width: 100%; /* Ancho completo */
+    height: 450px;
+    justify-content: space-evenly;
+    
+
+}
+
+/*{color: #e6c3bf;}
+ {color: #d3d2d1;}
+ {color: #005468;}
+ {color: #648a8a;}
+ {color: #c4bfc1;} */
+
+/* Estilos generales */
+
+
+
+
+
+/* Estilos del header */
+header {
+    background-color: #c4bfc1;
+    color: #005468;;   
+    padding: 10px;
+    text-align: center;
+
+}
+.game {
+    display: flex;
+    width: 100%;
+}
+.goti {
+    padding-top: 30px;
+    width: 50%;
+    height: 400px;
+}
+aside {
+    float: right;
+    margin-right: 50px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+    
+
+    
+}
+.contenedor-aside{
+    
+	max-width:400px;
+	padding:12px 32px;
+	margin: auto;
+    border: 2px solid black;    
+}
+
+
+
+footer {
+    background-color: #648a8a;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
