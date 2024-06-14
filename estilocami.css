@@ -1,0 +1,94 @@
+header {
+    border: 1px solid black;
+    padding: 15px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #d6eadf;
+     
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.columna {
+    width: 200px;
+    float: left;
+    background: #9bf1c2;
+    margin: 50px 0;
+}
+.cita {
+    margin-right: 200px;
+    background: rgb(239, 235, 141);
+    background: linear-gradient(0deg, rgb(245, 239, 135) 0%, rgb(236, 232, 181) 100%);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222 .3);
+}
+.chiky {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.cami {
+    width: 500px;
+    height: 500px;
+}
+
+/*redes sociales */
+
+.contenedor-aside{
+    
+	max-width:900px;
+	padding:32px 32px;
+	margin: auto;
+    border: 2px solid black;    
+}
+
+.clock {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding: 20px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    border: 2px solid #1cb9e9;
+    border-radius: 10px;
+    text-align: center;
+}
+	
+
+.image-container {
+    width: 300px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+}
+
+.image-container img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio de imagen */
+}
+
+.image-container {
+    transform: scale(1.1); /* Escala la imagen al 110% cuando se pasa el cursor por encima */
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    background: linear-gradient(rgba(84,93,220, .94), rgba(96,171,245, .9));
+    
+}
+
+    

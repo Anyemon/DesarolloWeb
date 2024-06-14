@@ -1,0 +1,104 @@
+body {
+    background-color: lavender;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: pink;
+    color: purple;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    background-color: pink;
+    color: purple;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .img1 {
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .img2 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .img3 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .img4 {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .img5 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .img6 {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .img-nueva {
+    width: 500px;
+    height: 400px;
+  }
+  #reloj {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }

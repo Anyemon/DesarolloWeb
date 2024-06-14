@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cuestionario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estiloform.css">
+        
+    </head>
+    <body>
+        <form id="cuestionarioform">
+            <div class="form">
+                <label for="q0">Por favor ingrese la respuesta como se muestra en el ejemplo.</label><br><br>
+                <label for="q1">¿Cuantos integrantes son en total en los blogs?(3; 4; 5)</label><br>
+                <input type="number" id="q1" name="q1" required><br><br>
+
+                <label for="q2">¿En que instituto estudian los alumnos del blog?(ORT; IFTS; INSPT)</label><br>
+                <input type="text" id="q2" name="q2" required><br><br>
+
+                <label for="q3">En el blog de Cami nos cuenta que su gran compañero ademas de su mascota es el..?(Mate; Cafe; Cerveza)</label><br>
+                <input type="text" id="q3" name="q3" required><br><br>
+
+                <label for="q4">¿De que signo zodiacal es Juan? (Aries; Geminis; Escorpio)</label><br>
+                <input type="text" id="q4" name="q4" required><br><br>
+
+                <label for="q5">¿Donde vivio de chico Fernando?(Gualeguay; Arequito; Rosario)</label><br>
+                <input type="text" id="q5" name="q5" required><br><br>
+
+                <label for="q6">¿Que animal es la mascota de Cami y como se llama?(Perro-Chuky; Gato-Chiky; Pajarito-Chaky)</label><br>
+                <input type="text" id="q6" name="q6" required><br><br>
+
+                <label for="q7">¿De que equipo de futbol argentino es Arianne?(Boca; River; Velez)</label><br>
+                <input type="text" id="q7" name="q7" required><br><br>
+
+                <label for="q8">¿Cual es el lugar preferido para vacacionar de Juan?(Montana; Playa; Nieve)</label><br>
+                <input type="text" id="q8" name="q8" required><br><br>
+
+                <label for="q9">¿Que tiene como mascota Arianne?(Perro; Gato; Iguana)</label><br>
+                <input type="text" id="q9" name="q9" required><br><br>
+
+                <label for="q10">¿Cual es la pelicula preferida de Fernando?(Rambo; Backtothefuture; Madmax)</label><br>
+                <input type="text" id="q10" name="q10" required><br><br>
+
+        
+                <button type="submit">Enviar</button><br>
+                <button type="button" onclick="window.location.href='index.html'">Volver al Blog</button>
+            </div>
+        </form>
+
+        <div id="resultado" style="display:none;"></div>
+</html>
+
+<script src="js/scriptform.js"></script>
